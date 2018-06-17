@@ -1,0 +1,38 @@
+{
+  "name": "sim-components",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "lib": "node node_modules/@beisen/gulp-lib/bin/index.js",
+    "examples": "node node_modules/@beisen/storybook-lib/bin/index.js"
+  },
+  "keywords": [
+    "beisen",
+    "react-component",
+    "es6"
+  ],
+  "author": {
+    "name": "beisen",
+    "email": "beisen@beisen.com"
+  },
+  "maintainers": [
+    {
+      "name": "beisen",
+      "email": "beisen@beisen.com"
+    }
+  ],
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2"
+  },
+  "devDependencies": {
+    "@beisen/gulp-lib": "0.0.12",
+    "@beisen/storybook-lib": "^0.1.28"
+  }
+}
